@@ -6,7 +6,7 @@ public class LinkedQueue {
 
     public boolean isEmpty() {
         // Check if queue has no elements
-        return frontNode = 0;
+        return frontNode == 0;
     }
 
     public void offer(String data) {
@@ -28,7 +28,7 @@ public class LinkedQueue {
         } else {
           String data = frontNode.getData();
           frontNode = frontNode.getNextNode();
-          if(frontNode == null){
+          if(frontNode = null){
             backNode = null;
           }
           return data;
